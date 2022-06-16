@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+body {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: #8C3C42;
+    overflow-x: hidden;
+}
+
+
+
+header{
+  
+    width: 100%;
+    height: 20%;
+    background-color: rgb(6, 7, 6);
+    opacity: 0.9;
+}
+
+.LOGO {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.saludo {
+    
+    width: 100%;
+    height: 10px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 2.2rem;
+}
+
+.conteiner {
+   
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visible {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.render {
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.info {
+    width: 50%;
+    height: 60%;
+}
+
+.render img {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.noneimg {
+    background-image: url(./sadface.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+.nombrePizza {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#form {
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+
+#numero {
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 5px;
+    
+    font-size: 1rem;
+    box-shadow: 2px;
+    margin: 1.5rem;
+    align-items: center;
+    text-align: center;
+    border-bottom: #0e0c0c ;
+}
+
+#boton {
+    align-items: center;
+    background-color: #0e0c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+    }
+    /* align-items: center;
+    background-color: #c30c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+} */
+/* .DIV{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(172, 123, 108);
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputnumero {
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 5px;
+    
+    font-size: 1rem;
+    box-shadow: 2px;
+    margin: 1.5rem;
+    align-items: center;
+    text-align: center;
+    border-bottom: #0e0c0c ;
+}
+
+.Enviar {
+    align-items: center;
+    background-color: #0e0c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+}
+
+.Ingredientes {
+    align-items: center;
+    background-color: #0e0c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+} */
